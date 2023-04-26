@@ -60,7 +60,7 @@
             <username>speriyala2</username>
             <password>Psmohan@234</password>
             <environment>Sandbox</environment>
-            <applicationName>mule-genapp-gitautocicd-sapi</applicationName>
+            <applicationName>mule-jenkin-cicd-sapi</applicationName>
             <businessGroup>c1dccc4a-5976-48bb-a0f4-327848ba097b</businessGroup>
             <workerType>MICRO</workerType>
             <workers>1</workers>
@@ -76,16 +76,16 @@
 			</plugin>
 		</plugins>
 	</build>
-	<!-- new distributionMgmt node added for fixing jenkins issue -->
+	<!-- new distributionMgmt node added for fixing jenkins issue
 	
 	<distributionManagement>
        <repository>
          <id>internal.repo</id>
          <name>Internalrepo</name>
-         <url>file:///home</url>
+         <url>C:/Users/ADMIN/Desktop/jenkins/.m2\repository\cicdtest</url>
        </repository>
    </distributionManagement>
-
+-->
 	<dependencies>
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
