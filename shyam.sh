@@ -13,6 +13,6 @@ echo -e "\nPrinting Git Status \n";
 git status;
 echo -e "\nCan I confirm the push boss (y/n) ?";
 read user_input;
-git commit -m "new change in workflow name";
+git commit -m "workflow-gitsteps-automate";
 git push origin develop;
 echo;
