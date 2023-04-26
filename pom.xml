@@ -76,6 +76,15 @@
 			</plugin>
 		</plugins>
 	</build>
+	<!-- new distributionMgmt node added for fixing jenkins issue -->
+	
+	<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///home/Internal repo</url>
+       </repository>
+   </distributionManagement>
 
 	<dependencies>
 		<dependency>
