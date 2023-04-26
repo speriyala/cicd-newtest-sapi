@@ -81,8 +81,8 @@
 	<distributionManagement>
        <repository>
          <id>internal.repo</id>
-         <name>Internal repo</name>
-         <url>file:///home/Internal repo</url>
+         <name>Internalrepo</name>
+         <url>file:///home</url>
        </repository>
    </distributionManagement>
 
