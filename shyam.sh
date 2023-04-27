@@ -18,6 +18,16 @@
               }
 
           }
+            stage('Test')   
+          {
+              steps 
+                  {
+
+                  // Run Maven on a Unix agent.
+                  sh "mvn clean test"
+              }
+
+          }
            stage('Deploy') 
           
           {
@@ -29,5 +39,8 @@
               }
 
           }
+
     }
   }
+
+  
