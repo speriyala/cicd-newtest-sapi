@@ -12,8 +12,6 @@
           {
               steps 
                   {
-                  // Get some code from a GitHub repository
-                  git 'git@github.com:speriyala/cicd-newtest-sapi.git'
 
                   // Run Maven on a Unix agent.
                   sh "mvn clean package"
