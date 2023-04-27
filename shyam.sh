@@ -6,7 +6,7 @@
           maven "maven-3.6.3"
       }
 
-      stages {
+  stages {
           stage('Build') 
           
           {
@@ -18,16 +18,16 @@
               }
 
           }
-                    stage('Deploy') 
+           stage('Deploy') 
           
           {
               steps 
                   {
 
                   // Run Maven on a Unix agent.
-                  mvn clean deploy
+                  sh "mvn clean deploy"
               }
 
           }
-      }
+    }
   }
