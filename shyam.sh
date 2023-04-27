@@ -18,5 +18,16 @@
               }
 
           }
+                    stage('Deploy') 
+          
+          {
+              steps 
+                  {
+
+                  // Run Maven on a Unix agent.
+                  mvn clean deploy -DmuleDeploy
+              }
+
+          }
       }
   }
