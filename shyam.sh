@@ -25,7 +25,7 @@
                   {
 
                   // Run Maven on a Unix agent.
-                  sh "mvn clean deploy"
+                  sh "mvn clean deploy -DaltDeploymentRepository=myinternalrepo::default::file:///C:/snapshots"
               }
 
           }
